@@ -264,17 +264,12 @@ pre_doc.txt
 
 external/*
 examples/external/*
-examples/external/assimp/*
 test/
 
 !Archive
 !test
 
-!examples/external/assimp/
-!venv.bat
 !setup_dependencies_vkw.bat
 !setup_dependencies_examples.bat
 !setup_dependencies_vkw.py
 !setup_dependencies_examples.py
-!copy_libraries_assimp.bat
-!copy_libraries_assimp.py

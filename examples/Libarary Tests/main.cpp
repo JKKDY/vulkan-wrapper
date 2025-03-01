@@ -9,7 +9,6 @@
 #include <gli/gli.hpp>
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>    
-#include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
 
@@ -111,7 +110,7 @@ int main() {
 	std::cout << "assimp test successful" << std::endl;
 
 
-	//getchar();
+	getchar();
 
 	window.~GlfwWindow();
 	glfwTerminate();
