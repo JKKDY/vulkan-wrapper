@@ -28,7 +28,6 @@ namespace vkw {
 		VULKAN_WRAPPER_API inline void errorCodeCheck(VkResult result, const char * msg = "");
 	}
 
-
 	namespace DebugInformationPrint {
 		void printGPUInformation(VkPhysicalDevice gpu, int score = -1);
 		void printPhysicalDeviceProperties(VkPhysicalDeviceProperties deviceProperties);

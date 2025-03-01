@@ -93,7 +93,7 @@ void VkwExample::setup() {
 void VkwExample::loadAssets() {
 	Mesh::LoadInfo skyboxInfo(modelPath() + "cube.obj", { {VERTEX_COMPONENT_POSITION, VERTEX_COMPONENT_NORMAL, VERTEX_COMPONENT_UV} }, &skybox);
 	Mesh::LoadInfo sphereInfo(modelPath() + "sphere.obj", { {VERTEX_COMPONENT_POSITION, VERTEX_COMPONENT_NORMAL, VERTEX_COMPONENT_UV} }, &sphere);
-	sphereInfo.scale = { 0.05f };
+	sphereInfo.scale = glm::vec3{ 0.05f };
 	meshLoader.loadFromFile({ skyboxInfo,  sphereInfo });
 
 	loadTextureCube();

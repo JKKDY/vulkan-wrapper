@@ -6,14 +6,14 @@ from subprocess import call
 
 def create_paths_if_invalid(*paths):
     for path in paths:
-        path = Path(path)  # seems expensive, but time seems not as crucial here and it's used when os is not Win anyway
+        path = Path(path)  
         if not path.exists():
             path.mkdir()
 
 
 if __name__ == '__main__':
-    dirname = Path(__file__).resolve().parent  # same as dirname
-    proj_path_vulkan = dirname / 'Vulkan'  # Path overrides __floordiv__, so joining works with slashes
+    dirname = Path(__file__).resolve().parent
+    proj_path_vulkan = dirname / 'Vulkan'  
 
     if os_name == 'nt':
         os_path_vulkan = Path(environ['VULKAN_SDK'])

@@ -1,2 +1,3 @@
-@echo off
-start python -m setup_dependencies_vkw.py
+
+start python setup_dependencies_vkw.py
+pause
