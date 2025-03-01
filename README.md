@@ -1,3 +1,6 @@
+# Update May 2025
+This project hasn't been maintained since 2019 and is not in a buildable/usable state. Since the last time ive written code for this project, I have leaned a lot more about software devolpement from other projects and having gone to college. I have now commenced work on this project again to bring it into a buildable state using a proper build system. Adding proper documentation and more features are next on my TODO list.  
+
 # Vulkan-Wrapper
 
 This is a wrapper for the Vulkan API written in C++. It's main goal is to mitigate some the verbosity of Vulkan by providing a more user-friendly API and automating processes such as allocations and object destruction, while trying to give the user as much creative freedom as possible.
